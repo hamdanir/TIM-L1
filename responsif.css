@@ -56,11 +56,8 @@
     display: none;
   }
 
-  .hero .content h1 {
-    font-size: 80%;
-  }
-
   .services .service img {
     width: 80px;
+    padding: 0 20px;
   }
 }
