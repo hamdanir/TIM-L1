@@ -52,9 +52,12 @@
   html {
     font-size: 50%;
   }
+  .navbar-nav {
+    display: none;
+  }
 
   .hero .content h1 {
-    font-size: 50%;
+    font-size: 2rems;
   }
 
   .services .service img {
