@@ -183,6 +183,11 @@ body {
 .katalog {
   background-color: #8a6744;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
 }
 
 .katalog h1 {
@@ -195,8 +200,64 @@ body {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .katalog .katalog-drone .drone {
   background-color: aquamarine;
 }
+
+.drone{
+  float: left;
+  width: 25%;
+  flex: auto;
+}
+
+.drone-icon{
+  position: relative;
+}
+
+.drone-icon img{
+  width: 70%;
+}
+
+.drone-icon p {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  color: #2c3e50;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.text-contents {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #2c3e50;
+  font-weight: bolder;
+}
+
+
+.btn-buy{
+  padding: 15px 20px 15px 20px;
+  border: 2px solid #2ecc71;
+  border-radius: 30px;
+  width: 140px;
+  background-color: #2ecc71;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+
+
+.btn-buy:hover{
+  background-color: #158544 ;
+  transition: all 0.8s;
+  border: 2px solid rgb(71, 153, 71);
+}
+
+
+
