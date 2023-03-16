@@ -209,6 +209,11 @@ body {
   flex-wrap: wrap;
 }
 
+.katalog .katalog-drone .flex-box {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 .drone {
   float: left;
   width: 25%;
@@ -220,7 +225,7 @@ body {
 }
 
 .drone-icon img {
-  width: 70%;
+  width: 250px;
 }
 
 .drone-icon p {
