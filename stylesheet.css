@@ -259,5 +259,191 @@ body {
   border: 2px solid rgb(71, 153, 71);
 }
 
+/* FORM */
+.form-help {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
 
+.form-help p {
+  color: #412805;
+  font-size: 16px;
+}
+
+.form-help .container {
+  padding: 5% 8%;
+}
+
+.heading {
+  padding: 10px 0;
+  margin-bottom: 30px;
+  color: #143642;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1rem;
+  text-align: left;
+}
+
+.form {
+  display: inline-block;
+  width: 100%;
+  padding: 25px 50px;
+  border: 1px solid #dee7ec; 
+  border-radius: 10px;
+  height: 577px;
+}
+
+.form2 {
+  display: none;
+  width: 100%;
+  padding: 8%;
+  border: 1px solid #dee7ec; 
+  border-radius: 10px;
+  height: 530px;
+  text-align: center;
+}
+
+.form-mobile {
+  text-align: left;
+}
+
+.form-mobile p {
+  margin: 0px auto;
+  font-size: 12px;
+}
+
+table {
+  width: 100%;
+  table-layout: auto;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  color: gray;
+}
+
+textarea {
+  height: 150px;
+}
+
+/* CONTACT */
+.message {
+  margin-top: 1.2rem;
+}
+
+.contact-us {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact-us h2{
+  text-align: center;
+}
+
+.contact-us p {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: #412805;
+}
+
+/* FOOTER */
+footer {
+  height: 380px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #143642;
+  color: white;
+  border-radius: 10px;
+}
+
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .container div {
+  flex: auto;
+}
+
+footer .logo {
+  margin-bottom: 10px;
+}
+
+footer h3 {
+  color: #ec9a29;
+}
+
+.footer-left {
+  width: 35%;
+  height: 120px;
+  text-align: left;
+}
+
+.footer-50 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 158px;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer-75 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 280px;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer-100 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 120px;
+  text-align: left;
+  padding: 10px;
+}
+
+footer a{
+  flex: auto;
+  width: 100%;
+  padding: 0px;
+  color: white;
+}
+
+footer h4 {
+  margin: 10px 0px;
+}
+
+.footer-75 p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+.copyright {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+.copyright p {
+  padding-top: 15px;
+}
 
