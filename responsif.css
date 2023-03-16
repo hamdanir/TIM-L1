@@ -230,6 +230,7 @@
   }
 
   .info-mobile-detail p {
+    font-size: 2.2rem;
     color: #13babd;
   }
 
@@ -260,7 +261,7 @@
 /* MEDIA TABLET */
 @media all and (max-width: 670px) {
   html {
-    font-size: 58%;
+    font-size: 60%;
   }
 
   /* HERO SECTION (MAIN) */
@@ -309,6 +310,7 @@
   }
 
   .info-mobile-detail p {
+    font-size: 1.8rem;
     color: #13babd;
   }
 
@@ -375,7 +377,7 @@
 @media all and (max-width: 450px) {
   /* GLOBAL PARAMETER */
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
 
   /* HERO SECTION (MAIN) */
