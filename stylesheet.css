@@ -16,6 +16,24 @@ body {
   color: #fff;
 }
 
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.btn:hover {
+  background-color: #011810;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -30,14 +48,14 @@ body {
   z-index: 9999;
 }
 
-.navbar-logo {
-  font-size: 2rem;
+.logo {
+  font-size: 2.5rem;
   font-weight: 700;
   color: #fff;
   font-style: italic;
 }
 
-.navbar .navbar-logo span {
+.logo span {
   color: var(--primary);
 }
 
@@ -63,6 +81,43 @@ body {
 
 .navbar .navbar-nav a:hover::after {
   transform: scaleX(0.5);
+}
+
+.navbar-mobile {
+  flex: auto;
+  position: relative;
+  color: white;
+  font-size: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-space {
+  display: none;
+}
+
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  right: -15px;
+  top: 0px;
+  background-color: var(--primary);
+  min-width: 150px;
+  text-align: center;
+  z-index: 5;
+}
+
+.menu-dropdown a {
+  display: block;
+  color: white;
+  font-size: 16px;
+  padding: 8px 8px;
+  line-height: 51px;
+}
+
+.menu-dropdown a:hover {
+  color: black;
+  background-color: #f1f1f1;
 }
 
 /* HERO SECTION (MAIN) */
@@ -123,19 +178,19 @@ body {
 
 .services .service {
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   padding: 15px 50px;
   flex-wrap: wrap;
 }
 
 .service img {
-  width: 180px;
+  width: 25%;
+  padding: 1%;
 }
 
 /* SERVICE END */
 
-/* INFO ONE */
+/* INFO START */
 .info {
   color: #13babd;
 }
@@ -166,6 +221,21 @@ body {
 .info-two-detail p {
   font-size: 1.8rem;
   width: 600px;
+}
+
+.info-mobile {
+  display: none; 
+  text-align: center;
+}
+
+.info-mobile-detail h1 {
+  font-size: 1.8;
+  color: var(--primary);
+}
+
+.info-mobile-detail p {
+  font-size: 1.2rem;
+  width: 100%;
 }
 
 .info .info-one-detail .btn,
@@ -245,7 +315,7 @@ body {
   font-weight: bolder;
 }
 
-.btn-buy {
+.buy {
   padding: 15px 20px 15px 20px;
   border: 2px solid #2ecc71;
   border-radius: 30px;
@@ -258,7 +328,7 @@ body {
   margin-top: 20px;
 }
 
-.btn-buy:hover {
+.buy:hover {
   background-color: #158544;
   transition: all 0.8s;
   border: 2px solid rgb(71, 153, 71);
@@ -283,7 +353,7 @@ body {
 .heading {
   padding: 10px 0;
   margin-bottom: 30px;
-  color: #143642;
+  color: var(--primary);
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 1rem;
@@ -387,12 +457,15 @@ footer .logo {
 
 footer h3 {
   color: #ec9a29;
+  font-size: 22px;
+  margin-bottom: 8px;
 }
 
 .footer-left {
   width: 35%;
   height: 120px;
   text-align: left;
+  padding-left: 8%;
 }
 
 .footer-50 {
@@ -425,17 +498,19 @@ footer h3 {
 footer a {
   flex: auto;
   width: 100%;
-  padding: 0px;
+  padding: 2px 0px;
   color: white;
+  font-size: 18px;
 }
 
 footer h4 {
-  margin: 10px 0px;
+  margin: 0px 0px;
+  font-size: 15px;
 }
 
 .footer-75 p {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .footer-mobile {
