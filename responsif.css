@@ -60,7 +60,7 @@
   
   /* FOOTER */
   footer a {
-	  font-size: 12px;
+    font-size: 12px;
   }
   
   footer h4 {
@@ -69,7 +69,7 @@
   }
   
   footer h3 {
-	  font-size: 16px;
+    font-size: 16px;
   }
   
   .footer-75 p {
@@ -78,7 +78,7 @@
   }
   
   .footer-100 {
-	  height: 100px;
+    height: 100px;
   }
 }
 
@@ -98,21 +98,21 @@
   
   /* FORM */
   .form {
-	  display: none;
+    display: none;
   }
   
   .form2 {
-	  display: inline-block;
+    display: inline-block;
   }
   
   input, textarea {
-	  margin: 10px auto;
+    margin: 10px auto;
     padding: 10px;
     font-size: 12px;
   }
   
   textarea {
-	  height: 100px;
+    height: 100px;
   }
   
   .heading {
@@ -136,7 +136,7 @@
   
   .contact {
     padding: 10px;
-	  font-size: 12px;
+    font-size: 12px;
     font-weight: normal;
     border-radius: 18px;
   }
@@ -149,11 +149,11 @@
   }
   
   footer h4 {
-	  font-size: 12px;
+    font-size: 12px;
   }
   
   .footer-left, .footer-50, .footer-75, .footer-100 {
-	  display: none;
+    display: none;
   }
   
   .footer-mobile {
@@ -164,15 +164,15 @@
   }
   
   .mobile-logo {
-	  flex: auto;
+    flex: auto;
   }
   
   .footer-flex {
-	  margin-top: 0px;
+    margin-top: 0px;
   }
   
   .footer-mobile a, .footer-mobile p {
-	  font-size: 12px;
+    font-size: 12px;
   }
   
   .footer-mobile ul {
@@ -188,25 +188,25 @@
   }
   
   .mobile-logo a {
-	  font-size: 22px;
+    font-size: 22px;
   }
   
   .mobile-logo h4 {
-	  margin: 0px 0px;
+    margin: 0px 0px;
   }
   
   .list-header h3 {
     line-height: 16px;
-	  margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   
   .list-header li {
     line-height: 16px;
-	  margin: 5px 0px;
+    margin: 5px 0px;
   }
   
   .location {
-	  line-height: 20px;
+    line-height: 20px;
   }
   
   .copyright {
