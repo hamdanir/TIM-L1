@@ -1,20 +1,16 @@
 /* media Queries */
 
 /* Laptop */
-@media (max-width: 1366px) {
+@media all and (max-width: 1366px) {
   html {
     font-size: 75%;
   }
 }
 
 /* Tablet */
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   html {
     font-size: 62.5%;
-  }
-
-  #humberger-menu {
-    display: inline-block;
   }
 
   .navbar .navbar-nav {
@@ -47,8 +43,42 @@
   }
 }
 
+/* MEDIA TABLET 600PX */
+@media all and (max-width: 600px) {
+  html {
+    font-size: 58%;
+  }
+
+  .services .service img {
+    width: 100px;
+    padding: 0 0;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info .info-one,
+  .info-two {
+    padding: 20px 50px;
+  }
+
+  .info .info-one img,
+  .info-two img {
+    width: 200px;
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 20%;
+  }
+
+  .info .info-one-detail p,
+  .info-two-detail p {
+    width: 280px;
+  }
+}
+
 /* Mobile */
-@media (max-width: 450px) {
+@media all and (max-width: 450px) {
   html {
     font-size: 50%;
   }
@@ -58,6 +88,89 @@
 
   .services .service img {
     width: 80px;
-    padding: 0 20px;
+    padding: 0 0;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info .info-one,
+  .info-two {
+    padding: 20px 50px;
+  }
+
+  .info .info-one img,
+  .info-two img {
+    width: 200px;
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 20%;
+  }
+
+  .info .info-one-detail p,
+  .info-two-detail p {
+    width: 300px;
+  }
+}
+
+/* MEDIA 420PX */
+@media all and (max-width: 420px) {
+  .services .service img {
+    width: 70px;
+    padding: 0 0;
+  }
+}
+
+/* MEDIA 380PX */
+@media all and (max-width: 380px) {
+  .services .service img {
+    width: 60px;
+    padding: 0 0;
+  }
+}
+
+/* MEDIA 340PX */
+@media all and (max-width: 340px) {
+  .services .service img {
+    width: 50px;
+    padding: 0 0;
+  }
+}
+
+/* MEDIA 300PX */
+@media all and (max-width: 300px) {
+  html {
+    font-size: 40%;
+  }
+
+  .services .service img {
+    width: 45px;
+  }
+  .services .service img {
+    width: 80px;
+    padding: 0 0;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info .info-one img,
+  .info-two img {
+    width: 150px;
+    height: 150px;
+    padding: 10px 0;
+    border-radius: 20%;
+  }
+
+  .info .info-one,
+  .info-two {
+    padding: 15px 25px;
+  }
+
+  .info .info-one-detail p,
+  .info-two-detail p {
+    width: 200px;
   }
 }
